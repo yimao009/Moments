@@ -14,7 +14,7 @@ end
 
 def ui_pods
     pod 'SnapKit', '=5.7.1'
-    pod 'Kingfisher', '=8.1.0'
+    pod 'Kingfisher', '=7.12.0'
 end
 
 def test_pods

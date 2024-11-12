@@ -8,7 +8,7 @@ PODS:
     - CwlCatchException (~> 2.2.1)
     - CwlMachBadInstructionHandler (~> 2.2.2)
     - CwlPosixPreconditionTesting (~> 2.2.2)
-  - Kingfisher (8.1.0)
+  - Kingfisher (7.12.0)
   - Nimble (13.6.2):
     - CwlPreconditionTesting (~> 2.2.0)
   - Quick (7.6.2)
@@ -17,7 +17,7 @@ PODS:
   - SwiftLint (0.57.0)
 
 DEPENDENCIES:
-  - Kingfisher (= 8.1.0)
+  - Kingfisher (= 7.12.0)
   - Nimble (= 13.6.2)
   - Quick (= 7.6.2)
   - SnapKit (= 5.7.1)
@@ -44,13 +44,13 @@ SPEC CHECKSUMS:
   CwlMachBadInstructionHandler: dae4fdd124d45c9910ac240287cc7b898f4502a1
   CwlPosixPreconditionTesting: ecd095aa2129e740b44301c34571e8d85906fb88
   CwlPreconditionTesting: 67a0047dd4de4382b93442c0e3f25207f984f35a
-  Kingfisher: dfbf20b6249ed4ef6f18d6a96c847bce860bdb95
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
   Nimble: 8cd9e713948ea6a61980e82d2bec937acec16b91
   Quick: b8bec97cd4b9f21da0472d45580f763b801fc353
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
   SwiftLint: eb47480d47c982481592c195c221d11013a679cc
 
-PODFILE CHECKSUM: 9be3279551706667f6f1c05bed392b9d173545c1
+PODFILE CHECKSUM: 1ef403b5e0e0422bb9a3985a6a03427329a3d3a3
 
 COCOAPODS: 1.16.2
