@@ -21,13 +21,30 @@ platform :ios do
   #   # add actions here: https://docs.fastlane.tools/actions
   # end
 
-  desc "Run unit test"
-    lane :tests do
-      run_tests(
-        scheme: "Moments",
-        output_directory: "./fastlane/dist",
-        output_types: "html",
-        buildlog_path: "./fastlane/dist")
-    end
+desc "Run unit test"
+  lane :tests do
+    run_tests(
+      scheme: "Moments",
+      output_directory: "./fastlane/dist",
+      output_types: "html",
+      buildlog_path: "./fastlane/dist")
+  end
 
+  lane :codelint do
+    puts("Lint code using SwiftLint")
+    swiftlint(
+      mode: :lint,
+      executable: "Pods/SwiftLint/swiftlint",
+      config_file: "./Moments/.swiftlint.yml",
+      raise_if_swiftlint_error: true)
+  end
+
+  lane :codeformat do
+    puts("Lint and format code using SwiftLint")
+    swiftlint(
+      mode: :autocorrect,
+      executable: "Pods/SwiftLint/swiftlint",
+      config_file: "./Moments/.swiftlint.yml",
+      raise_if_swiftlint_error: true)
+  end
 end
