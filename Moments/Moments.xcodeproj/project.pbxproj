@@ -32,20 +32,26 @@
 /* Begin PBXFileReference section */
 		09602FF87A51162CCE5DAAF7 /* Pods_MomentsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1698FFF32F6C971E59E35625 /* Pods-MomentsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsUITests.release.xcconfig"; path = "Target Support Files/Pods-MomentsUITests/Pods-MomentsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B31B18579B23851F144AF11 /* Pods-MomentsTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsTests.appstore.xcconfig"; path = "Target Support Files/Pods-MomentsTests/Pods-MomentsTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		2FA840FE520AC19C9105E383 /* Pods-Moments.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.appstore.xcconfig"; path = "Target Support Files/Pods-Moments/Pods-Moments.appstore.xcconfig"; sourceTree = "<group>"; };
 		4FF3FD338E3438335F81189C /* Pods-Moments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.release.xcconfig"; path = "Target Support Files/Pods-Moments/Pods-Moments.release.xcconfig"; sourceTree = "<group>"; };
 		5146E612ED872FE71CA407F5 /* Pods-MomentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MomentsUITests/Pods-MomentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55EABDF97189454E744FC111 /* Pods-MomentsUITests.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsUITests.internal.xcconfig"; path = "Target Support Files/Pods-MomentsUITests/Pods-MomentsUITests.internal.xcconfig"; sourceTree = "<group>"; };
 		56EDD59C86ABD7229CB6D4DE /* Pods-Moments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.debug.xcconfig"; path = "Target Support Files/Pods-Moments/Pods-Moments.debug.xcconfig"; sourceTree = "<group>"; };
 		5FC958D12DE5083FA3409BE1 /* Pods_MomentsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EFCFB8A050A4B75CDD0C16 /* Pods-MomentsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsTests.release.xcconfig"; path = "Target Support Files/Pods-MomentsTests/Pods-MomentsTests.release.xcconfig"; sourceTree = "<group>"; };
 		A6E6B09C2CDE77ED003AC824 /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E6B0B22CDE77EE003AC824 /* MomentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6E6B0BC2CDE77EE003AC824 /* MomentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1A10DEE22F9EBFBCB496305 /* Pods-Moments.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.internal.xcconfig"; path = "Target Support Files/Pods-Moments/Pods-Moments.internal.xcconfig"; sourceTree = "<group>"; };
 		D2C711960C610FE56D324AB3 /* Pods-MomentsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsTests.debug.xcconfig"; path = "Target Support Files/Pods-MomentsTests/Pods-MomentsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4F59FBDE253F799DC6C008C /* Pods-MomentsUITests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsUITests.appstore.xcconfig"; path = "Target Support Files/Pods-MomentsUITests/Pods-MomentsUITests.appstore.xcconfig"; sourceTree = "<group>"; };
+		D7144BF74BA6E2960020A3E3 /* Pods-MomentsTests.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentsTests.internal.xcconfig"; path = "Target Support Files/Pods-MomentsTests/Pods-MomentsTests.internal.xcconfig"; sourceTree = "<group>"; };
 		EBC031A2B1D1FA9E4D093358 /* Pods_Moments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A6E6B0C42CDE77EE003AC824 /* Exceptions for "Moments" folder in "Moments" target */ = {
+		A6E6B5212CED266B003AC824 /* Exceptions for "Moments" folder in "Moments" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -55,14 +61,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		A6E6B09E2CDE77ED003AC824 /* Moments */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				A6E6B0C42CDE77EE003AC824 /* Exceptions for "Moments" folder in "Moments" target */,
-			);
-			path = Moments;
-			sourceTree = "<group>";
-		};
 		A6E6B0B52CDE77EE003AC824 /* MomentsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MomentsTests;
@@ -71,6 +69,14 @@
 		A6E6B0BF2CDE77EE003AC824 /* MomentsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = MomentsUITests;
+			sourceTree = "<group>";
+		};
+		A6E6B50E2CED266B003AC824 /* Moments */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A6E6B5212CED266B003AC824 /* Exceptions for "Moments" folder in "Moments" target */,
+			);
+			path = Moments;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -122,6 +128,12 @@
 				94EFCFB8A050A4B75CDD0C16 /* Pods-MomentsTests.release.xcconfig */,
 				5146E612ED872FE71CA407F5 /* Pods-MomentsUITests.debug.xcconfig */,
 				1698FFF32F6C971E59E35625 /* Pods-MomentsUITests.release.xcconfig */,
+				B1A10DEE22F9EBFBCB496305 /* Pods-Moments.internal.xcconfig */,
+				2FA840FE520AC19C9105E383 /* Pods-Moments.appstore.xcconfig */,
+				D7144BF74BA6E2960020A3E3 /* Pods-MomentsTests.internal.xcconfig */,
+				1B31B18579B23851F144AF11 /* Pods-MomentsTests.appstore.xcconfig */,
+				55EABDF97189454E744FC111 /* Pods-MomentsUITests.internal.xcconfig */,
+				D4F59FBDE253F799DC6C008C /* Pods-MomentsUITests.appstore.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -130,7 +142,7 @@
 		A6E6B0932CDE77ED003AC824 = {
 			isa = PBXGroup;
 			children = (
-				A6E6B09E2CDE77ED003AC824 /* Moments */,
+				A6E6B50E2CED266B003AC824 /* Moments */,
 				A6E6B0B52CDE77EE003AC824 /* MomentsTests */,
 				A6E6B0BF2CDE77EE003AC824 /* MomentsUITests */,
 				A6E6B09D2CDE77ED003AC824 /* Products */,
@@ -168,7 +180,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				A6E6B09E2CDE77ED003AC824 /* Moments */,
+				A6E6B50E2CED266B003AC824 /* Moments */,
 			);
 			name = Moments;
 			productName = Moments;
@@ -468,7 +480,8 @@
 /* Begin XCBuildConfiguration section */
 		A6E6B0C62CDE77EE003AC824 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56EDD59C86ABD7229CB6D4DE /* Pods-Moments.debug.xcconfig */;
+			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
+			baseConfigurationReferenceRelativePath = Configurations/Targets/DebugTarget.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -487,7 +500,6 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.grz.Moments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -495,9 +507,10 @@
 			};
 			name = Debug;
 		};
-		A6E6B0C72CDE77EE003AC824 /* Release */ = {
+		A6E6B0C72CDE77EE003AC824 /* Internal */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FF3FD338E3438335F81189C /* Pods-Moments.release.xcconfig */;
+			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
+			baseConfigurationReferenceRelativePath = Configurations/Targets/InternalTarget.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -516,16 +529,17 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.grz.Moments;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Internal;
 		};
 		A6E6B0C82CDE77EE003AC824 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
+			baseConfigurationReferenceRelativePath = Configurations/Project/DebugProject.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -587,8 +601,10 @@
 			};
 			name = Debug;
 		};
-		A6E6B0C92CDE77EE003AC824 /* Release */ = {
+		A6E6B0C92CDE77EE003AC824 /* Internal */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
+			baseConfigurationReferenceRelativePath = Configurations/Project/InternalProject.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -641,7 +657,7 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Internal;
 		};
 		A6E6B0CB2CDE77EE003AC824 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -662,9 +678,9 @@
 			};
 			name = Debug;
 		};
-		A6E6B0CC2CDE77EE003AC824 /* Release */ = {
+		A6E6B0CC2CDE77EE003AC824 /* Internal */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94EFCFB8A050A4B75CDD0C16 /* Pods-MomentsTests.release.xcconfig */;
+			baseConfigurationReference = D7144BF74BA6E2960020A3E3 /* Pods-MomentsTests.internal.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -679,7 +695,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moments";
 			};
-			name = Release;
+			name = Internal;
 		};
 		A6E6B0CE2CDE77EE003AC824 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -698,9 +714,9 @@
 			};
 			name = Debug;
 		};
-		A6E6B0CF2CDE77EE003AC824 /* Release */ = {
+		A6E6B0CF2CDE77EE003AC824 /* Internal */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1698FFF32F6C971E59E35625 /* Pods-MomentsUITests.release.xcconfig */;
+			baseConfigurationReference = 55EABDF97189454E744FC111 /* Pods-MomentsUITests.internal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -713,7 +729,130 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Moments;
 			};
-			name = Release;
+			name = Internal;
+		};
+		A6E6B2E82CE93B22003AC824 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
+			baseConfigurationReferenceRelativePath = Configurations/Project/AppStoreProject.xcconfig;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		A6E6B2E92CE93B22003AC824 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
+			baseConfigurationReferenceRelativePath = Configurations/Targets/AppStoreTarget.xcconfig;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Moments/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStore;
+		};
+		A6E6B2EA2CE93B22003AC824 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B31B18579B23851F144AF11 /* Pods-MomentsTests.appstore.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grz.MomentsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moments.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Moments";
+			};
+			name = AppStore;
+		};
+		A6E6B2EB2CE93B22003AC824 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4F59FBDE253F799DC6C008C /* Pods-MomentsUITests.appstore.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.grz.MomentsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Moments;
+			};
+			name = AppStore;
 		};
 /* End XCBuildConfiguration section */
 
@@ -722,37 +861,41 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E6B0C82CDE77EE003AC824 /* Debug */,
-				A6E6B0C92CDE77EE003AC824 /* Release */,
+				A6E6B0C92CDE77EE003AC824 /* Internal */,
+				A6E6B2E82CE93B22003AC824 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Internal;
 		};
 		A6E6B0C52CDE77EE003AC824 /* Build configuration list for PBXNativeTarget "Moments" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E6B0C62CDE77EE003AC824 /* Debug */,
-				A6E6B0C72CDE77EE003AC824 /* Release */,
+				A6E6B0C72CDE77EE003AC824 /* Internal */,
+				A6E6B2E92CE93B22003AC824 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Internal;
 		};
 		A6E6B0CA2CDE77EE003AC824 /* Build configuration list for PBXNativeTarget "MomentsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E6B0CB2CDE77EE003AC824 /* Debug */,
-				A6E6B0CC2CDE77EE003AC824 /* Release */,
+				A6E6B0CC2CDE77EE003AC824 /* Internal */,
+				A6E6B2EA2CE93B22003AC824 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Internal;
 		};
 		A6E6B0CD2CDE77EE003AC824 /* Build configuration list for PBXNativeTarget "MomentsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A6E6B0CE2CDE77EE003AC824 /* Debug */,
-				A6E6B0CF2CDE77EE003AC824 /* Release */,
+				A6E6B0CF2CDE77EE003AC824 /* Internal */,
+				A6E6B2EB2CE93B22003AC824 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Internal;
 		};
 /* End XCConfigurationList section */
 	};

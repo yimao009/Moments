@@ -1,0 +1,12 @@
+//
+//  AppStoreProject.xcconfig
+//  Moments
+//
+//  Created by GRZ on 2024/11/17.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "BaseProject.xcconfig"
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) INTERNAL

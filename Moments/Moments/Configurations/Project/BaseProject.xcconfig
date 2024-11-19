@@ -1,0 +1,14 @@
+//
+//  AppStoreProject.xcconfig
+//  Moments
+//
+//  Created by GRZ on 2024/11/17.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "../Shared/CompilerAndLanguage.xcconfig"
+
+#include "../Shared/SDKAndDeviceSupport.xcconfig"
+
+#include "../Shared/BaseConfigurations.xcconfig"
