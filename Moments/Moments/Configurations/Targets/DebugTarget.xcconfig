@@ -11,6 +11,6 @@
 
 #include "BaseTarget.xcconfig"
 
-PRODUCT_BUNDLE_NAME = $(inherited) α
+INFOPLIST_KEY_CFBundleDisplayName = $(inherited) α
 
 PRODUCT_BUNDLE_IDENTIFIER = $(inherited).development
