@@ -271,9 +271,9 @@ fastlane/dist
 iOSInjectionProject/
 
 ### SwiftPackageManager ###
-Packages
+# Packages
 xcuserdata
-*.xcodeproj
+# *.xcodeproj
 
 
 ### Xcode ###
