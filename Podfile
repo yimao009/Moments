@@ -10,16 +10,21 @@ project './Moments/Moments.xcodeproj'
 def dev_pods
     pod 'SwiftLint','=0.57.0', configurations: ['Debug']
     pod 'SwiftGen','=6.6.3', configurations: ['Debug']
+    pod 'RxSwift', '=6.8.0'
+    
 end
 
 def ui_pods
     pod 'SnapKit', '=5.7.1'
     pod 'Kingfisher', '=7.12.0'
+    pod 'RxCocoa', '=6.8.0'
 end
 
 def test_pods
     pod 'Quick', '=7.6.2'
     pod 'Nimble', '=13.6.2'
+    pod 'RxBlocking', '=6.8.0'
+    pod 'RxTest', '=6.8.0'
 end
 
 target 'Moments' do
