@@ -63,15 +63,11 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A6E6B0B52CDE77EE003AC824 /* MomentsTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = MomentsTests;
 			sourceTree = "<group>";
 		};
 		A6E6B0BF2CDE77EE003AC824 /* MomentsUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = MomentsUITests;
 			sourceTree = "<group>";
 		};
@@ -485,8 +481,6 @@
 		A6E6B0C62CDE77EE003AC824 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 56EDD59C86ABD7229CB6D4DE /* Pods-Moments.debug.xcconfig */;
-			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
-			baseConfigurationReferenceRelativePath = Configurations/Targets/DebugTarget.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -515,8 +509,6 @@
 		A6E6B0C72CDE77EE003AC824 /* Internal */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B1A10DEE22F9EBFBCB496305 /* Pods-Moments.internal.xcconfig */;
-			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
-			baseConfigurationReferenceRelativePath = Configurations/Targets/InternalTarget.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -795,8 +787,6 @@
 		A6E6B2E92CE93B22003AC824 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FA840FE520AC19C9105E383 /* Pods-Moments.appstore.xcconfig */;
-			baseConfigurationReferenceAnchor = A6E6B50E2CED266B003AC824 /* Moments */;
-			baseConfigurationReferenceRelativePath = Configurations/Targets/AppStoreTarget.xcconfig;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
