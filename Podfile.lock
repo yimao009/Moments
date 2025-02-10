@@ -8,6 +8,7 @@ PODS:
     - CwlCatchException (~> 2.2.1)
     - CwlMachBadInstructionHandler (~> 2.2.2)
     - CwlPosixPreconditionTesting (~> 2.2.2)
+  - Differentiator (5.0.0)
   - Kingfisher (7.12.0)
   - Nimble (13.6.2):
     - CwlPreconditionTesting (~> 2.2.0)
@@ -17,6 +18,10 @@ PODS:
   - RxCocoa (6.8.0):
     - RxRelay (= 6.8.0)
     - RxSwift (= 6.8.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - RxRelay (6.8.0):
     - RxSwift (= 6.8.0)
   - RxSwift (6.8.0)
@@ -32,6 +37,7 @@ DEPENDENCIES:
   - Quick (= 7.6.2)
   - RxBlocking (= 6.8.0)
   - RxCocoa (= 6.8.0)
+  - RxDataSources (~> 5.0)
   - RxSwift (= 6.8.0)
   - RxTest (= 6.8.0)
   - SnapKit (= 5.7.1)
@@ -45,11 +51,13 @@ SPEC REPOS:
     - CwlMachBadInstructionHandler
     - CwlPosixPreconditionTesting
     - CwlPreconditionTesting
+    - Differentiator
     - Kingfisher
     - Nimble
     - Quick
     - RxBlocking
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
     - RxTest
@@ -63,11 +71,13 @@ SPEC CHECKSUMS:
   CwlMachBadInstructionHandler: dae4fdd124d45c9910ac240287cc7b898f4502a1
   CwlPosixPreconditionTesting: ecd095aa2129e740b44301c34571e8d85906fb88
   CwlPreconditionTesting: 67a0047dd4de4382b93442c0e3f25207f984f35a
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
   Nimble: 8cd9e713948ea6a61980e82d2bec937acec16b91
   Quick: b8bec97cd4b9f21da0472d45580f763b801fc353
   RxBlocking: a8b634fba6850913bc3df40bb73fd08b2dbf0f01
   RxCocoa: 2d33c1e1e5d66492052ad46b11024ae287572880
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 335c78b926a2aea8d863a6d25f1ed3b5ad8e8705
   RxSwift: 4e28be97cbcfeee614af26d83415febbf2bf6f45
   RxTest: d0fa1ec82feb41efa826a59173ec65eafbbe4aaf
@@ -75,6 +85,6 @@ SPEC CHECKSUMS:
   SwiftGen: 4993cbf71cbc4886f775e26f8d5c3a1188ec9f99
   SwiftLint: eb47480d47c982481592c195c221d11013a679cc
 
-PODFILE CHECKSUM: c21a234b284bcf98e18cda3d476a262209dfa1b8
+PODFILE CHECKSUM: 6af39261d3b1422621bbf10f0e3219f8a5694932
 
 COCOAPODS: 1.16.2

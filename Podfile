@@ -11,13 +11,13 @@ def dev_pods
     pod 'SwiftLint','=0.57.0', configurations: ['Debug']
     pod 'SwiftGen','=6.6.3', configurations: ['Debug']
     pod 'RxSwift', '=6.8.0'
-    
 end
 
 def ui_pods
     pod 'SnapKit', '=5.7.1'
     pod 'Kingfisher', '=7.12.0'
     pod 'RxCocoa', '=6.8.0'
+    pod 'RxDataSources', '~> 5.0'
 end
 
 def test_pods
