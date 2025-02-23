@@ -13,4 +13,4 @@
 
 INFOPLIST_KEY_CFBundleDisplayName = $(inherited)
 
-PRODUCT_BUNDLE_IDENTIFIER = $(inherited)
+PRODUCT_BUNDLE_IDENTIFIER = com.grz.ibanimatable.moments
