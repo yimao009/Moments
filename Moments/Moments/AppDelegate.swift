@@ -28,3 +28,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 }
+
+#if DEBUG || INTERNAL
+extension UIWindow {
+    open override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        let appRouter: AppRouting = AppRouter.instance
+        if motion == .motionShake {
+            appRouter.routeToInternalMenu(.present, from: rootViewController)
+        }
+    }
+}
+
+#endif
