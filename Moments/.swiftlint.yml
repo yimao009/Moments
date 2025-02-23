@@ -1,23 +1,24 @@
-only_rules:
-  - array_init
+whitelist_rules:
+- array_init
   - attributes
   - block_based_kvo
   - class_delegate_protocol
-  - closing_brace
+  - closing_brace_spacing
   - closure_end_indentation
   - closure_parameter_position
   - closure_spacing
-  - collection_alignment
-  - comma
+  - collection_element_alignment
+  - comma_spacing
   - compiler_protocol_init
   - contains_over_filter_count
   - contains_over_filter_is_empty
   - contains_over_first_not_nil
-  - contains_over_range_nil_comparison
+  - contains_over_rangeof_comparison_to_nil
   - control_statement
   - custom_rules
   - deployment_target
   - discarded_notification_center_observer
+  - discouraged_object_literal
   - duplicate_enum_cases
   - duplicate_imports
   - dynamic_inline
@@ -31,12 +32,13 @@ only_rules:
   - explicit_self
   - extension_access_modifier
   - fatal_error_message
+  - file_name
   - first_where
-  - flatmap_over_map_reduce
+  - flatmap_over_map_and_reduce
   - for_where
   - force_cast
-  - force_try 
-  - force_unwrapping 
+  - force_try
+  - force_unwrapping
   - function_default_parameter_at_end
   - generic_type_name
   - identical_operands
@@ -57,24 +59,24 @@ only_rules:
   - let_var_whitespace
   - lower_acl_than_parent
   - mark
-  - sorted_first_last
+  - min_or_max_over_sorted_first_or_last
   - multiple_closures_with_trailing_closure
   - no_fallthrough_only
   - nslocalizedstring_key
   - nslocalizedstring_require_bundle
   - nsobject_prefer_isequal
-  - opening_brace
+  - opening_brace_spacing
   - operator_usage_whitespace
-  - operator_whitespace
-  - overridden_super_call
+  - operator_function_whitespace
+  - overridden_methods_call_super
   - pattern_matching_keywords
-  - prefixed_toplevel_constant
-  - private_action
-  - private_outlet
+  - prefixed_top_level_constant
+  - private_actions
+  - private_outlets
   - private_over_fileprivate
   - private_unit_test
   - prohibited_interface_builder
-  - prohibited_super_call
+  - prohibited_calls_to_super
   - protocol_property_accessors_order
   - quick_discouraged_focused_test
   - quick_discouraged_pending_test
@@ -85,19 +87,20 @@ only_rules:
   - redundant_nil_coalescing
   - redundant_objc_attribute
   - redundant_optional_initialization
-  - redundant_set_access_control
+  - redundant_set_access_control_rule
   - redundant_string_enum_value
   - redundant_void_return
   - required_enum_case
-  - return_arrow_whitespace
+  - returning_whitespace
   - shorthand_operator
   - single_test_class
   - statement_position
   - static_operator
   - superfluous_disable_command
-  - switch_case_alignment
+  - switch_and_case_statement_alignment
   - syntactic_sugar
   - todo
+  - trailing_closure
   - trailing_comma
   - trailing_newline
   - trailing_semicolon
@@ -117,25 +120,11 @@ only_rules:
   - unused_optional_binding
   - unused_setter_value
   - vertical_whitespace
-  - vertical_whitespace_closing_braces
-  - vertical_whitespace_opening_braces
+  - vertical_whitespace_before_closing_braces
+  - vertical_whitespace_after_opening_braces
   - void_return
-  - xct_specific_matcher
-  - yoda_condition
-
-# included:
-#   - "../Frameworks/DesignKit"
+  - xctest_specific_matcher
+  - yoda_condition_rule
 
 excluded:
   - Pods
-  - "./MomentsTests"
-  - "./MomentsUITests"
-  - "./Moments/MomentsTests"
-  - "./Moments/MomentsUITests"
-
-custom_rules:
-  no_hardcoded_strings:
-    regex: "([A-Za-z]+)"
-    match_kinds: string
-    message: "Please do not hardcode strings and add them to the appropriate `Localizable.strings` file; a build script compiles all strings into strongly typed resources available through `Generated/Strings.swift`, e.g. `L10n.accessCamera"
-    severity: warning
