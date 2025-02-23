@@ -104,7 +104,6 @@ whitelist_rules:
   - trailing_comma
   - trailing_newline
   - trailing_semicolon
-  - trailing_whitespace
   - type_name
   - unavailable_function
   - unneeded_break_in_switch
@@ -125,6 +124,7 @@ whitelist_rules:
   - void_return
   - xctest_specific_matcher
   - yoda_condition_rule
-
+disabled_rules:
+  - trailing_whitespace
 excluded:
   - Pods
